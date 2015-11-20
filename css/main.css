@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
+html,body{
+	height: 100%;
+	width: 100%;
+	 overflow-x: hidden;
+}
+
 h1{
 	color: white;
 }
@@ -16,4 +24,41 @@ h1{
     background-color: #be2e66;
     border-radius: 8px;
 }
+#portada{
+	background-image: url("../images/campeonato1.jpg");
+	height: 80%;
+	text-align: center;
+}
+.title , h2{
+	    padding-top: 7%;
+    display: inline-table;
+}
+.title{
+	    color: white;
+    font-size: 27px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+h2{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: #be2e66;
+	font-size: 40px;
+}
+.contador{
+	height: 200px;
+	    width: 168px;
+    border-radius: 10px;
+	background-color: hsla(0, 100%, 100%, 0.8);
+    display: inline-block;
+        color: white;
+    margin: 15px;
+}
+.title-pink{
+	color:  #be2e66;
+	font-family: 'Mouse Memoirs', sans-serif;
+	display: inline-table;
+	font-size: 40px;
+}
+.title-white{
+	color: white;
+	font-family: 'Mouse Memoirs', sans-serif;
 }
