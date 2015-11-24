@@ -11,16 +11,16 @@ h1{
 }
 
 .navbar-inverse {
-        background-color: hsla(0, 4%, 6%, 0.65);
-    border-color:  hsla(0, 0%, 0%, 0.3);
-    	    padding-top: 13px;
+    background-color: hsla(0, 4%, 6%, 0.65);
+	border-color:  hsla(0, 0%, 0%, 0.3);
+	padding-top: 13px;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: white;
 }
 .add{
 	padding: 13px;
-    background-color: #be2e66;
+    background-color: #f53880;
     border-radius: 8px;
 }
 #portada{

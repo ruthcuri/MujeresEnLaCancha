@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+body,html{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+.equipos,
+.equipos a{
+	text-align: center;
+	color: #76767A;
+}
+hr{
+	width: 40px;
+	border: 2px solid #f53880;
+	margin-top: 0px;
+}
+.equipos h2{
+	color: #1B0F0A;
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 800;
+}
+.img-equipo{
+	width: 100%;
+	border-radius: 100%;
+}
+.img-equipo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.name-equipo{
+	color:  #f53880;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 600;
+}
+.icon-equipo i{
+	padding: 10px;
+	border: 2px solid;
+	border-radius: 100%;
+}
+.call-to-action{
+	width: 100%;
+	height: 40%;
+	background: url("../images/registro.jpg")bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 300%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
