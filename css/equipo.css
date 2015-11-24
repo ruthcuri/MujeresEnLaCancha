@@ -47,10 +47,46 @@ hr{
 }
 .call-to-action{
 	width: 100%;
-	height: 40%;
-	background: url("../images/registro.jpg")bottom;
+	background: url("../images/registro.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 300%;
+	background-size: cover;
+}
+.contact{
+	background: #343332;
+	color: #fff;
+}
+.contact p{
+	font-size: 1.3em;
+}
+.contact .nro{
+	font-size: 1.8em;
+}
+.icon-contact{
+	width: 60px;
+	height: 60px;
+	padding: 2%;
+	font-size: 2em;
+	border: 2px solid #f53880;
+	color: #f53880;
+	border-radius: 100%;
+	display: inline-block;
+	margin-right:2%;
+	text-align: center;
+}
+.formulario{
+	background: #343332 !important;
+	color: #fff !important;
+}
+footer{
+	background: #1B1918;
+	color: #fff;
+	text-align: center;
+	padding: 1%;
+}
+.name-footer{
+	text-transform: uppercase;
+	color: #f53880;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .pt-5{
 	padding-top: 5%;
