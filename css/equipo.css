@@ -39,6 +39,7 @@ hr{
 	color:  #f53880;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 600;
+	margin-top: 5px;
 }
 .icon-equipo i{
 	padding: 10px;
@@ -47,9 +48,38 @@ hr{
 }
 .call-to-action{
 	width: 100%;
+	height: 50%;
 	background: url("../images/registro.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.bg-dark{
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+}
+.call-to-action h2{
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.registro-equipo{
+	background: #f53880;
+	border-radius: 5px;
+	padding: 1%;
+	color: #fff;
+	margin-top: 3%;
+	display: inline-block;
+	font-size: 20px;
+}
+.registro-equipo:hover{
+	text-decoration: none;
+	color: #fff;
+	transition: 1s;
+	padding: 1.4% 2%;
 }
 .contact{
 	background: #343332;
@@ -73,6 +103,10 @@ hr{
 	margin-right:2%;
 	text-align: center;
 }
+.icon-contact:hover{
+	color: #f86da2;
+	transition: 2s;
+}
 .formulario{
 	background: #343332 !important;
 	color: #fff !important;
@@ -93,4 +127,20 @@ footer{
 }
 .pb-5{
 	padding-bottom: 5%;
+}
+@media(max-width: 768px){
+	.contact{
+		text-align: center;
+	}
+	.icon-contact{
+		font-size: 1.5em;
+	}
+	.contact .nro{
+		font-size: 1.2em;
+	}
+}
+@media(min-width: 768px){
+	.contact{
+		padding-left: 10%;
+	}
 }
