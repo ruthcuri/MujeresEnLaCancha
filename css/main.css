@@ -191,3 +191,9 @@ a.add {
 	letter-spacing: 1px;
 }
 /**como?**/
+/**equipos**/
+.subtitle{
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
