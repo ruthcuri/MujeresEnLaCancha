@@ -103,6 +103,9 @@ hr{
 	margin-right:2%;
 	text-align: center;
 }
+.contact a:hover{
+	text-decoration: none;
+}
 .icon-contact:hover{
 	color: #f86da2;
 	transition: 2s;
