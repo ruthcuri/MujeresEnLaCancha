@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
-@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body,html{
 	padding: 0px;
 	margin: 0px;
@@ -8,19 +7,60 @@ body,html{
 	height: 100%;
 	overflow-x: hidden;
 }
-
-.navbar-inverse {
-    background-color: hsla(0, 4%, 6%, 0.65);
-	border-color:  hsla(0, 0%, 0%, 0.3);
-	padding-top: 13px;
+/*nav*/
+.navbar{
+	height: 80px;
+	margin: 0;
+	z-index: 90;
 }
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
+.bg-dark{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-brand {
+  width: 100px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  height: 80px;
+  padding: 5px 5px;
+}
+.navbar-brand .brand{
+  width: 150%;
+}
+.navbar .navbar-toggle .icon-bar {
+  	background: #f36;
+}
+.navbar-toggle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navbar-brand{
+	height: 80px;
+}
+.navbar-nav > li > a {
+	margin-top: 12px;
+}
+.navbar-collapse {
+ background-color: transparent;
+}
+.nav-pills{
+	float: right;
+}
+.navbar a{
+	color: #fff;
+	font-family: "Open Sans",arial;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: transparent;
+	color: #f36;
 }
 .add{
-	padding: 13px;
-    background-color: #f53880;
-    border-radius: 8px;
+	padding: 10px;
+    background-color: #f36;
+    border-radius: 6px;
+}
+.add:hover{
+	color: #f36 !important;
+	background-color: #fff !important;
 }
 /*:in:*/
 
@@ -45,26 +85,22 @@ h3{
 	text-align: center;
 	font-weight: 800;
 }
-
 .mujeres{
 	font-family: SantElia;
 	color: #f53880;
 	font-size: 7.5em;
 	padding-bottom: 7%;
 }
-
 .btn_2{
 	background-color: #f53880;
 	color: white;
 	width: 75%;
 }
-
 .circle_equipo{
 	border-radius: 100%;
 	height: 154px;
     width: 157px;
 }
-
 .bg-equipo{
 	background-image: url("../images/equipo1.jpg");
 	background-position: center;
@@ -79,4 +115,51 @@ h3{
     background-size: cover;
     border-radius: 100%;
     height: 168px;
+}
+@media (max-width: 768px){ 
+	.navbar{
+	height: 40px;
+	z-index: 100;
+}
+	.navbar-brand {
+ 	width: 100px;
+  	padding-top: 4%;
+  	padding-bottom: 4%;
+  	height: 40px;
+  	padding: 5px 5px;
+}
+	.navbar-brand .brand{
+  	width: 100%;
+}
+	.navbar-toggle{
+  	margin-top: 10px;
+  	margin-bottom: 5px;
+}
+	.navbar-nav li{
+		display: block;
+	}
+	.navbar-nav > li > a {
+  	padding-top: 5px;
+  	padding-bottom: 10px;
+  	line-height: 20px;
+  	font-size: 1em;
+  	background-color: transparent;
+  	font-family: "Open Sans",arial;
+}
+	.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+	color: #f36;
+}
+	.navbar-collapse {
+ 	background-color: rgba(0, 0, 0, 0.8);
+}
+	.nav-pills a{
+	background: none;
+	display: block !important;
+}
+.add{
+	padding: 10px;
+    background-color: #f36;
+    border-radius: 6px;
+}
 }

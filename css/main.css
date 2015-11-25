@@ -64,8 +64,8 @@ html,body{
     border-radius: 6px;
 }
 .add:hover{
-	color: #fff;
-	background-color: #fff;
+	color: #f36 !important;
+	background-color: #fff !important;
 }
 @media (max-width: 768px){ 
 	.navbar{
@@ -86,6 +86,9 @@ html,body{
   	margin-top: 10px;
   	margin-bottom: 5px;
 }
+	.navbar-nav li{
+		display: block;
+	}
 	.navbar-nav > li > a {
   	padding-top: 5px;
   	padding-bottom: 10px;
@@ -101,8 +104,14 @@ html,body{
 	.navbar-collapse {
  	background-color: rgba(0, 0, 0, 0.8);
 }
-	.nav-pills{
+	.nav-pills a{
 	background: none;
+	display: block !important;
+}
+.add{
+	padding: 10px;
+    background-color: #f36;
+    border-radius: 6px;
 }
 }
 /*h1{

@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
-@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-body,html{
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);body,html{
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
