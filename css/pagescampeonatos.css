@@ -22,11 +22,21 @@ body,html{
     background-color: #f53880;
     border-radius: 8px;
 }
+/*:in:*/
 
-#portada{
+.bg-campeonato{
 	background-image: url("../images/campeonato1.jpg");
-	height: 100%;
-	text-align: center;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 8%;
+}
+
+.campeonato{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 6em;
+	color: white;
+	font-weight: 800;
+	padding-top: 14%;
 }
 
 h3{
@@ -34,6 +44,13 @@ h3{
 	color: black;
 	text-align: center;
 	font-weight: 800;
+}
+
+.mujeres{
+	font-family: SantElia;
+	color: #f53880;
+	font-size: 7.5em;
+	padding-bottom: 7%;
 }
 
 .btn_2{
@@ -46,4 +63,20 @@ h3{
 	border-radius: 100%;
 	height: 154px;
     width: 157px;
+}
+
+.bg-equipo{
+	background-image: url("../images/equipo1.jpg");
+	background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    height: 168px;
+}
+
+.bg-equipovol1{
+	background-image: url("../images/equipos_interna/team3_int.png");
+	background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    height: 168px;
 }
