@@ -105,6 +105,10 @@ a:hover{
     border-radius: 6px;
 }
 .add:hover{
+<<<<<<< HEAD
+	color: #f36 !important;
+	background-color: #fff !important;
+=======
 	color: #fff!important;
 	background-color: #fe518b!important;
 
@@ -114,6 +118,7 @@ a:hover{
 	padding-top: 10px; 
     padding-bottom: 10px;
 }
+>>>>>>> ee9f18ba6b7dcc629cd14717ee693a5e75b8c0b3
 }
 @media (max-width: 768px){ 
 	.navbar{
@@ -134,6 +139,9 @@ a:hover{
   	margin-top: 10px;
   	margin-bottom: 5px;
 }
+	.navbar-nav li{
+		display: block;
+	}
 	.navbar-nav > li > a {
   	padding-top: 5px;
   	padding-bottom: 10px;
@@ -149,8 +157,14 @@ a:hover{
 	.navbar-collapse {
  	background-color: rgba(0, 0, 0, 0.8);
 }
-	.nav-pills{
+	.nav-pills a{
 	background: none;
+	display: block !important;
+}
+.add{
+	padding: 10px;
+    background-color: #f36;
+    border-radius: 6px;
 }
 }
 #full-image{
