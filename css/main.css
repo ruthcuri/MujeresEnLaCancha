@@ -105,20 +105,14 @@ a:hover{
     border-radius: 6px;
 }
 .add:hover{
-<<<<<<< HEAD
-	color: #f36 !important;
-	background-color: #fff !important;
-=======
 	color: #fff!important;
 	background-color: #fe518b!important;
-
 }
 @media (min-width: 768px){
 .navbar-nav>li>a {
 	padding-top: 10px; 
     padding-bottom: 10px;
 }
->>>>>>> ee9f18ba6b7dcc629cd14717ee693a5e75b8c0b3
 }
 @media (max-width: 768px){ 
 	.navbar{
