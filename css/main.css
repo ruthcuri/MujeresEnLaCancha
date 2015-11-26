@@ -7,6 +7,9 @@ html,body{
 	padding: 0;
 	font-family: "Open Sans",arial;
 }
+strong{
+	font-weight: 600;
+}
 a{
 	text-decoration: none;
 	color: #fff;
@@ -146,7 +149,7 @@ a:hover{
 }
 	.nav>li>a:hover, .nav>li>a:focus{
 	background-color: transparent;
-	color: #f36;
+	color: #fe106a;
 }
 	.navbar-collapse {
  	background-color: rgba(0, 0, 0, 0.8);
@@ -157,7 +160,7 @@ a:hover{
 }
 .add{
 	padding: 10px;
-    background-color: #f36;
+    background-color: #fe106a;
     border-radius: 6px;
 }
 }
@@ -191,6 +194,18 @@ a.add {
 	letter-spacing: 1px;
 }
 /**como?**/
+/**campeonatos**/
+.btn-gray{
+	margin-top: 7%;
+	border-bottom: 5px solid #D8D8D8;
+	width: 100%;
+}
+.btn-gray:hover{
+  	margin-top: 7%;
+  	border-bottom: 5px solid #f53880;
+  	cursor:pointer;
+  	width: 100%;
+}
 /**equipos**/
 .subtitle{
 	font-size: 3em;
@@ -223,7 +238,6 @@ hr{
 	border-radius: 100%;
 }
 .name-equipo{
-	color:  #f53880;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 600;
 	margin-top: 5px;
