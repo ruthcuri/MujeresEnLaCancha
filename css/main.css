@@ -57,113 +57,6 @@ a:hover{
 .mg-b-0{
 	margin-bottom: 0;
 }
-.navbar{
-	height: 80px;
-	margin: 0;
-	z-index: 90;
-}
-.bg-dark{
-	background-color: rgba(0, 0, 0, 0.8);
-}
-.navbar-brand {
-  width: 100px;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  height: 80px;
-  padding: 5px 5px;
-}
-.navbar-brand .brand{
-  width: 150%;
-}
-.navbar .navbar-toggle .icon-bar {
-  	background: #fe106a;
-}
-.navbar-toggle{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.navbar-brand{
-	height: 80px;
-}
-.navbar-nav > li > a {
-	margin-top: 20px;
-}
-.navbar-collapse {
- background-color: transparent;
-}
-.nav-pills{
-	float: right;
-}
-.navbar a{
-	color: #fff;
-	font-family: "Open Sans",arial;
-}
-.nav > li > a:hover, .nav > li > a:focus{
-	background-color: transparent;
-	color: #fe106a;
-}
-.add{
-	padding: 10px;
-    background-color: #fe106a;
-    border-radius: 6px;
-}
-.add:hover{
-	color: #fff!important;
-	background-color: #fe518b!important;
-}
-@media (min-width: 768px){
-.navbar-nav>li>a {
-	padding-top: 10px; 
-    padding-bottom: 10px;
-}
-}
-@media (max-width: 768px){ 
-	.navbar{
-	height: 40px;
-	z-index: 100;
-}
-	.navbar-brand {
- 	width: 100px;
-  	padding-top: 4%;
-  	padding-bottom: 4%;
-  	height: 40px;
-  	padding: 5px 5px;
-}
-	.navbar-brand .brand{
-  	width: 100%;
-}
-	.navbar-toggle{
-  	margin-top: 10px;
-  	margin-bottom: 5px;
-}
-	.navbar-nav li{
-		display: block;
-	}
-	.navbar-nav > li > a {
-  	padding-top: 5px;
-  	padding-bottom: 10px;
-  	line-height: 20px;
-  	font-size: 1em;
-  	background-color: transparent;
-  	font-family: "Open Sans",arial;
-}
-	.nav>li>a:hover, .nav>li>a:focus{
-	background-color: transparent;
-	color: #fe106a;
-}
-	.navbar-collapse {
- 	background-color: rgba(0, 0, 0, 0.8);
-}
-	.nav-pills a{
-	background: none;
-	display: block !important;
-}
-.add{
-	padding: 10px;
-    background-color: #fe106a;
-    border-radius: 6px;
-}
-}
 #full-image{
 	background-image: url("../images/campeonato1.jpg");
 	background-position: top;
@@ -263,63 +156,17 @@ hr{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .registro-equipo{
-	background: #f53880;
-	border-radius: 5px;
-	padding: 1%;
+	padding: 10px;
+    background-color: #f36;
+    border-radius: 6px;
 	color: #fff;
 	margin-top: 3%;
 	display: inline-block;
 	font-size: 20px;
 }
-.registro-equipo:hover{
-	text-decoration: none;
-	color: #fff;
-	transition: 1s;
-	padding: 1.4% 2%;
-}
-.contact{
-	background: #343332;
-	color: #fff;
-}
-.contact p{
-	font-size: 1.3em;
-}
-.contact .nro{
-	font-size: 1.8em;
-}
-.icon-contact{
-	width: 60px;
-	height: 60px;
-	padding: 2%;
-	font-size: 2em;
-	border: 2px solid #f53880;
-	color: #f53880;
-	border-radius: 100%;
-	display: inline-block;
-	margin-right:2%;
-	text-align: center;
-}
-.contact a:hover{
-	text-decoration: none;
-}
-.icon-contact:hover{
-	color: #f86da2;
-	transition: 2s;
-}
-.formulario{
-	background: #343332 !important;
+.registro-equipo:hover{	
 	color: #fff !important;
-}
-footer{
-	background: #1B1918;
-	color: #fff;
-	text-align: center;
-	padding: 1%;
-}
-.name-footer{
-	text-transform: uppercase;
-	color: #f53880;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-color: #fe518b !important;
 }
 .pt-5{
 	padding-top: 5%;

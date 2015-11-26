@@ -12,29 +12,30 @@
         <link rel="stylesheet" type="text/css" href="css/pagesequipo.css">
     </head>
     <body>
-        <nav class="navbar ">    
-                <div class="navbar navbar-fixed-top navbar-right bg-dark ">
+        <nav class="navbar">    
+            <div class="navbar navbar-fixed-top bg-dark">
                 <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Navegación</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="navbar-brand"><img class="brand" src="images/logo_page.png"></div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html">
+                            <div class="navbar-brand"><img class="brand" src="images/logo_page.png"></div>
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right nav-pills text-uppercase text-gray word-med">
+                            <li role="presentation"><a href="#nosotras">Nosotras</a></li>
+                            <li role="presentation"><a href="#prox-campeonatos">Próximos Campeonatos</a></li>
+                            <li role="presentation"><a href="#equipos">Equipos</a></li>
+                            <li role="presentation"><a class="add" href="formulario.html">CREA TU EQUIPO</a></li>    
+                        </ul>
+                    </div>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right nav-pills text-uppercase text-gray word-med">
-                        <li role="presentation"><a href="#hola">Nosotras</a></li>
-                        <li role="presentation"><a href="#habilities">Próximos Campeonatos</a></li>
-                        <li role="presentation"><a href="#proyects">Equipos</a></li>
-                        <li role="presentation"><a class="add" href="formulario.html">CREA TU EQUIPO</a></li>
-                        <li>                         
-                    </ul>
-                </div>
-                </div>
-                </div>
+            </div>
         </nav>
         <section class="equipos">
             <div class="container">
@@ -50,7 +51,9 @@
                         </p>
                         <p class="description">Buscamos: 1 Delantera
                         </p>
-                        <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        <a href="formulario.html">
+                            <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        </a>
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <img class="img-responsive" src="images/equipos_interna/team2_int.png" alt="">
@@ -60,7 +63,9 @@
                         </p>
                         <p class="description">Buscamos: 2 Volantes
                         </p>
-                        <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        <a href="formulario.html">
+                            <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        </a>
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <img class="img-responsive" src="images/equipos_interna/team3_int.png" alt="">
@@ -70,7 +75,9 @@
                         </p>
                         <p class="description">Buscamos: 1 Arquera
                         </p>
-                        <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        <a href="formulario.html">
+                            <button type="button" class="btn"><strong>ÚNETE</strong></button>
+                        </a>
                     </div>    
                 </div>
                 <div class="row mb-5">
@@ -136,9 +143,9 @@
           <div class="container">
             <div class="row text-center">          
               <div class="col-xs-12 col-sm-12 pb-5">
-                <p>info@mujeresenlacancha.com.pe</p>
-                <p class="nro">998 368 254</p>
-                <p class="nro">365 4300</p>
+                <p><i class="icon-info fa fa-envelope"></i>info@mujeresenlacancha.com.pe</p>
+                <p class="nro"><i class="icon-info fa fa-mobile"></i>998 368 254</p>
+                <p class="nro"><i class="icon-info fa fa-phone"></i>365 4300</p>
                 <a href="#">
                   <div class="icon-contact">
                     <i class="fa fa-twitter"></i>
@@ -163,5 +170,8 @@
             <p>Copyright &copy; | <span class="name-footer"><i class="fa fa-futbol-o"></i>  mujeres en la cancha</span></p>
           </div>
         </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

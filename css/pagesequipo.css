@@ -6,61 +6,6 @@ html,body{
 	margin: 0;
 	padding: 0;
 }
-/*nav*/
-.navbar{
-	height: 80px;
-	margin: 0;
-	z-index: 90;
-}
-.bg-dark{
-	background-color: rgba(0, 0, 0, 0.7);
-}
-.navbar-brand {
-  width: 100px;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  height: 80px;
-  padding: 5px 5px;
-}
-.navbar-brand .brand{
-  width: 150%;
-}
-.navbar .navbar-toggle .icon-bar {
-  background: #f36;
-}
-.navbar-toggle{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.navbar-brand{
-	height: 80px;
-}
-.navbar-nav > li > a {
-	margin-top: 12px;
-}
-.navbar-collapse {
- background-color: transparent;
-}
-.nav-pills{
-	float: right;
-}
-.navbar a{
-	color: #fff;
-	font-family: "Open Sans",arial;
-}
-.nav > li > a:hover, .nav > li > a:focus{
-	background-color: transparent;
-	color: #f36;
-}
-.add{
-	padding: 10px;
-    background-color: #f36;
-    border-radius: 6px;
-}
-.add:hover{
-	color: #f36 !important;
-	background-color: #fff !important;
-}
 /*****/
 .mb-5{
 	margin-bottom: 5%;
@@ -75,7 +20,7 @@ html,body{
 }
 .btn-gray:hover{
   	margin-top: 7%;
-  	border-bottom: 5px solid #f53880;
+  	border-bottom: 5px solid #f36;
   	cursor:pointer;
   	width: 100%;
 }
@@ -87,67 +32,20 @@ h2{
 }
 h3{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: #f53880;
+	color: #f36;
 	font-weight: 800;
 }
 .description{
 	text-align: left;
 }
-.equipos,
-.equipos a{
+.equipos{
 	text-align: center;
-	color: #76767A;
+	/*color: #76767A;*/
 }
 hr{
 	width: 40px;
-	border: 2px solid #f53880;
+	border: 2px solid #f36;
 	margin-top: 0px;
-}
-/*contact*/
-.contact{
-	background: #343332;
-	color: #fff;
-}
-.contact p{
-	font-size: 1.3em;
-}
-.contact .nro{
-	font-size: 1.8em;
-}
-.icon-contact{
-	width: 60px;
-	height: 60px;
-	padding: 1.4%;
-	font-size: 2em;
-	border: 2px solid #f53880;
-	color: #f53880;
-	border-radius: 100%;
-	display: inline-block;
-	margin-right:2%;
-	text-align: center;
-}
-.contact a:hover{
-	text-decoration: none;
-}
-
-.icon-contact:hover{
-	color: #f86da2;
-	transition: 2s;
-}
-.formulario{
-	background: #343332 !important;
-	color: #fff !important;
-}
-footer{
-	background: #1B1918;
-	color: #fff;
-	text-align: center;
-	padding: 1%;
-}
-.name-footer{
-	text-transform: uppercase;
-	color: #f53880;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .pt-5{
 	padding-top: 5%;
@@ -155,64 +53,13 @@ footer{
 .pb-5{
 	padding-bottom: 5%;
 }
-@media(max-width: 768px){
-	.contact{
-		text-align: center;
-	}
-	.icon-contact{
-		font-size: 1.5em;
-	}
-	.contact .nro{
-		font-size: 1.2em;
-	}
-	.navbar{
-	height: 40px;
-	z-index: 100;
-	}
-	.navbar-brand {
- 	width: 100px;
-  	padding-top: 4%;
-  	padding-bottom: 4%;
-  	height: 40px;
-  	padding: 5px 5px;
-	}
-	.navbar-brand .brand{
-  	width: 100%;
-	}
-	.navbar-toggle{
-  	margin-top: 10px;
-  	margin-bottom: 5px;
-	}
-	.navbar-nav li{
-		display: block;
-	}
-	.navbar-nav > li > a {
-  	padding-top: 5px;
-  	padding-bottom: 10px;
-  	line-height: 20px;
-  	font-size: 1em;
-  	background-color: transparent;
-  	font-family: "Open Sans",arial;
-	}
-	.nav>li>a:hover, .nav>li>a:focus{
-	background-color: transparent;
-	color: #f36;
-	}
-	.navbar-collapse {
- 	background-color: rgba(0, 0, 0, 0.8);
-	}
-	.nav-pills a{
-	background: none;
-	display: block !important;
-	}
-	.add{
-		padding: 10px;
-	    background-color: #f36;
-	    border-radius: 6px;
-	}
+.btn{
+	background-color: #f36;
+	color: white;
+	width: 100%;
 }
-@media(min-width: 768px){
-	.contact{
-		padding-left: 10%;
-	}
+.btn-hover{
+	color: #fff !important;
+	background-color: #fe518b !important; 
+	text-decoration: none;
 }

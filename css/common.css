@@ -1,6 +1,13 @@
 /*contact*/
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans",arial;
+}
 a{
 	text-decoration: none;
 }
@@ -56,66 +63,21 @@ a{
     border-radius: 6px;
 }
 .add:hover{
-	color: #f36 !important;
-	background-color: #fff !important;
+	color: #fff !important;
+	background-color: #fe518b !important;
 }
 /****/
 .pd-5{
 	padding: 5% 0%;
 }
-@media (max-width: 768px){ 
-	.navbar{
-	height: 40px;
-	z-index: 100;
-}
-	.navbar-brand {
- 	width: 100px;
-  	padding-top: 4%;
-  	padding-bottom: 4%;
-  	height: 40px;
-  	padding: 5px 5px;
-}
-	.navbar-brand .brand{
-  	width: 100%;
-}
-	.navbar-toggle{
-  	margin-top: 10px;
-  	margin-bottom: 5px;
-}
-	.navbar-nav li{
-		display: block;
-	}
-	.navbar-nav > li > a {
-  	padding-top: 5px;
-  	padding-bottom: 10px;
-  	line-height: 20px;
-  	font-size: 1em;
-  	background-color: transparent;
-  	font-family: "Open Sans",arial;
-}
-	.nav>li>a:hover, .nav>li>a:focus{
-	background-color: transparent;
-	color: #f36;
-}
-	.navbar-collapse {
- 	background-color: rgba(0, 0, 0, 0.8);
-}
-	.nav-pills a{
-	background: none;
-	display: block !important;
-}
-.add{
-	padding: 10px;
-    background-color: #f36;
-    border-radius: 6px;
-}
-}
+/*contact*/
 .contact{
 	background: #343332;
 	color: #fff;
 }
 .contact p{
 	font-size: 1.3em;
+	color: #bdbdbd;
 }
 .contact .nro{
 	font-size: 1.8em;
@@ -123,10 +85,10 @@ a{
 .icon-contact{
 	width: 60px;
 	height: 60px;
-	padding: 1.4%;
+	padding: 1%;
 	font-size: 2em;
-	border: 2px solid #f53880;
-	color: #f53880;
+	border: 2px solid #f36;
+	color: #f36;
 	border-radius: 100%;
 	display: inline-block;
 	margin-right:2%;
@@ -134,6 +96,9 @@ a{
 }
 .contact a:hover{
 	text-decoration: none;
+}
+.icon-info{
+	padding-right: 1%; 
 }
 .icon-contact:hover{
 	color: #f86da2;
@@ -150,8 +115,7 @@ footer{
 	padding: 1%;
 }
 .name-footer{
-	text-transform: uppercase;
-	color: #f53880;
+	text-transform: uppercase;	color: #f36;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .pt-5{
@@ -165,14 +129,64 @@ footer{
 		text-align: center;
 	}
 	.icon-contact{
+		width: 50px;
+		height: 50px;
 		font-size: 1.5em;
 	}
 	.contact .nro{
 		font-size: 1.2em;
 	}
+	.navbar{
+	height: 40px;
+	z-index: 100;
+	}
+	.navbar-brand {
+ 	width: 100px;
+  	padding-top: 4%;
+  	padding-bottom: 4%;
+  	height: 40px;
+  	padding: 5px 5px;
+	}
+	.navbar-brand .brand{
+  	width: 100%;
+	}
+	.navbar-toggle{
+  	margin-top: 10px;
+  	margin-bottom: 5px;
+	}
+	.navbar-nav li{
+		display: block;
+	}
+	.navbar-nav > li > a {
+  	padding-top: 5px;
+  	padding-bottom: 10px;
+  	line-height: 20px;
+  	font-size: 1em;
+  	/*background-color: transparent;*/
+  	font-family: "Open Sans",arial;
+	}
+	.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+	color: #fe106a;
+	}
+	.navbar-collapse {
+ 	background-color: rgba(0, 0, 0, 0.8);
+	}
+	.nav-pills a{
+	background: none;
+	display: block !important;
+	}
+	.add{
+	padding: 10px;
+    background-color: #fe106a;
+    border-radius: 6px;
+	}
 }
-.btn{
-	background-color: #f53880;
-	color: white;
-	width: 100%;
+
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+		padding-top: 10px; 
+	    padding-bottom: 10px;
+	}
 }
+
